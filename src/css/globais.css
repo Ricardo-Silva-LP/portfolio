@@ -13,4 +13,14 @@ body{
   font-size: var(--fonte-normal);
 }
   
-  
+  .row{
+    display: flex; 
+  }
+
+  .justift-content-between{
+    justify-content: space-between;
+  }
+
+  .alinhar-itens-no-centro{
+    align-items: center;
+  }
