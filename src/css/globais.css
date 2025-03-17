@@ -12,12 +12,17 @@ body{
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
-  
-  .row{
-    display: flex; 
+  .container{
+    max-width: 1140px;
+    margin: auto;
   }
 
-  .justift-content-between{
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .justify-content-between{
     justify-content: space-between;
   }
 
